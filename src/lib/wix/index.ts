@@ -1,16 +1,10 @@
 import { items } from "@wix/data";
 import { currentCart, recommendations } from "@wix/ecom";
 import { redirects } from "@wix/redirects";
-import { createClient, media, OAuthStrategy } from "@wix/sdk";
+import { media } from "@wix/sdk";
 import { collections, products } from "@wix/stores";
 import { type SortKey } from "../constants";
 import type { Cart, Collection, Menu, Page, Product } from "./types";
-
-createClient({
-  auth: OAuthStrategy({
-    clientId: import.meta.env.PUBLIC_WIX_CLIENT_ID,
-  }),
-}).enableContext("global");
 
 const cartesian = <T>(data: T[][]) =>
   data.reduce((a, b) => a.flatMap((d) => b.map((e) => [...d, e])), [
