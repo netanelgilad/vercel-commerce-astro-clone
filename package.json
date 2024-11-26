@@ -15,7 +15,7 @@
     "@astrojs/tailwind": "^5.1.2",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.15",
-    "@wix/astro-internal": "^0.0.15",
+    "@wix/astro-internal": "https://cdn.dev.wixpress.com/@wix/astro-internal/00828f7a01becf7d09ae799b45e4117277a9c493626a1adffb632b61.tar.gz",
     "@wix/data": "1.0.168",
     "@wix/ecom": "1.0.806",
     "@wix/redirects": "1.0.60",
