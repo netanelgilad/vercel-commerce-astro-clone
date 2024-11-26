@@ -28,5 +28,6 @@
   "devDependencies": {
     "@wix/cli": "https://cdn.dev.wixpress.com/@wix/cli/7b4d836a4fabecc3f3c03a33d039100038183fc0c7b43befab724126.tar.gz",
     "@wix/cli-astro-internal": "https://cdn.dev.wixpress.com/@wix/cli-astro-internal/e7e32ab7646b6a096fad816f30d42eb01056b525ea3b2da75f598f67.tar.gz"
-  }
+  },
+  "packageManager": "yarn@4.5.3"
 }
