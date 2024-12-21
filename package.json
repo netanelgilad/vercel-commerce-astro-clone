@@ -11,23 +11,23 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/react": "^3.6.2",
-    "@astrojs/tailwind": "^5.1.2",
+    "@astrojs/react": "4.1.2",
+    "@astrojs/tailwind": "5.1.4",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.15",
-    "@wix/astro-internal": "https://cdn.dev.wixpress.com/@wix/astro-internal/4a6e599e853b4fab9f4d36484b7ae498eb48d975c9967be66ae28fba.tar.gz",
+    "@wix/astro": "^0.1.1",
     "@wix/data": "1.0.168",
     "@wix/ecom": "1.0.806",
     "@wix/redirects": "1.0.60",
     "@wix/sdk": "^1.14.2",
     "@wix/stores": "1.0.280",
-    "astro": "4.16.10",
+    "astro": "5.1.1",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@wix/cli": "https://cdn.dev.wixpress.com/@wix/cli/3df5a60d46d05c31f2291629519014a05472eec70694e36f8336eaf7.tar.gz",
-    "@wix/cli-astro-internal": "https://cdn.dev.wixpress.com/@wix/cli-astro-internal/ba5d3f32d7b0c1bd5a81846935284fda8e7c9a09b866cfc4a980481f.tar.gz"
+    "@wix/cli": "https://cdn.dev.wixpress.com/@wix/cli/4cf3fe1da2b0b8b6c0b9dad19a270e7c85fbf9a3a8cbf41a771febc1.tar.gz",
+    "@wix/cli-astro-internal": "https://cdn.dev.wixpress.com/@wix/cli-astro-internal/44243acb9df5b05e824590497473d31890f15ccdd5f4543ed67b0b53.tar.gz"
   },
   "packageManager": "yarn@4.5.3"
 }

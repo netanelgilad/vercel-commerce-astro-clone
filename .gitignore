@@ -26,3 +26,5 @@ pnpm-debug.log*
 .env.local
 
 .yarn/install-state.gz
+
+.wix
