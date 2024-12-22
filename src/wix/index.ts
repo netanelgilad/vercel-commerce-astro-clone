@@ -1,4 +1,4 @@
-import { manifest } from "@wix/astro-internal/extensions";
+import { manifest } from "@wix/astro/extensions";
 import { orders } from "@wix/ecom";
 import { shippingRates } from "@wix/ecom/service-plugins";
 import { products } from "@wix/stores";
