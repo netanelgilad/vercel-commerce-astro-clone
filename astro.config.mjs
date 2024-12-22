@@ -6,7 +6,8 @@ import wix from "@wix/astro";
 // https://astro.build/config
 export default defineConfig({
   output: "server",
-  integrations: [wix(), tailwind()],
+  integrations: [tailwind()],
+  adapter: wix(),
   image: {
     domains: ["static.wixstatic.com"],
   },
